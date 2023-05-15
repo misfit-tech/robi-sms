@@ -1,0 +1,35 @@
+{
+    "name": "misfit/robisms",
+    "description": "Sending SMS Through Robi",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Misfit\\Robisms\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name"  : "Md. Ainul Moin Noor",
+            "email" : "chandan@misfit.tech",
+            "role"  : "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Misfit\\Robisms\\RobiSmsServiceProvider"
+            ],
+            "aliases": {
+                "RobiSMS" : "Misfit\\Robisms\\Facades"
+            }
+        }
+    }
+}
