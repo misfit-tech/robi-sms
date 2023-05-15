@@ -46,9 +46,7 @@ class RobiSms implements RobiSmsInterface{
             return null;
         }
     } catch (\GuzzleHttp\Exception\ClientException $e){
-
             dd($e->getResponse()->getBody()->getContents());
-
         }
 
     }
