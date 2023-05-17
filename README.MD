@@ -3,7 +3,7 @@
     <img src="banner.png"></a>
 </p>
 
-![Packagist Downloads](https://img.shields.io/packagist/dt/misfit/robisms)
+![Packagist Downloads](https://img.shields.io/packagist/dt/misfit/robisms) ![Packagist License](https://img.shields.io/packagist/l/misfit/robisms)
 
  # [Robi SMS] - Sending SMS Through Robi
  ### :beginner: Version 1.0.0
