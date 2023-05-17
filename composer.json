@@ -1,6 +1,6 @@
 {
     "name": "misfit/robisms",
-    "description": "Sending SMS Through Robi",
+    "description": "Robi SMS Sending Laravel Package",
     "type": "library",
     "license": "MIT",
     "autoload": {
