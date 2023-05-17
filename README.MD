@@ -10,12 +10,12 @@
  ```sh
   composer require misfit/robi-sms
  ```
- # :outbox_tray: Publish Configuration
+ ### :outbox_tray: Publish Configuration
  :small_blue_diamond: To publish the config, run from terminal
  ```sh
   php artisan vendor:publish --provider='Misfit\Robisms\RobiSmsServiceProvider'
  ```
- # :lock: Set Robi Credentials
+ ### :lock: Set Robi Credentials
  :small_blue_diamond: Its time to set your Robi Credentials in .env
 ```sh
     ROBI_USERNAME=
@@ -23,7 +23,7 @@
     ROBI_SMS_NUMBER=
     ROBI_SMS_TIMEOUT=
  ```
-  # :envelope: Sending Message
+### :envelope: Sending Message
  :small_blue_diamond: Now you can use the sms service anywhere in your project by calling robi_sms() method.
  ```sh
   robi_sms(['mobile_no'=>'01xxxxxxxxx','msg'=>'Bismillah'])
