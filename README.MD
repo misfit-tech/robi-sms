@@ -5,7 +5,7 @@
 
 ![Packagist Version](https://img.shields.io/packagist/v/misfit/robisms) ![Packagist Downloads](https://img.shields.io/packagist/dt/misfit/robisms) ![Packagist License](https://img.shields.io/packagist/l/misfit/robisms)
 
- # SMS Sending Laravel Package for Robi
+ # Robi SMS Sending Laravel Package
  ### :feet: Installation
  ```sh
   composer require misfit/robi-sms
