@@ -20,7 +20,7 @@
  ```sh
   php artisan vendor:publish --provider='Misfit\Robisms\RobiSmsServiceProvider'
  ```
- # :palm_tree: :seedling: Set Robi Credentials
+ # :lock: Set Robi Credentials
  :small_blue_diamond: Its time to set your Robi Credentials in .env
 ```sh
     ROBI_USERNAME=
@@ -32,7 +32,7 @@
  ```sh
   php artisan config:clear
  ```
-  # :palm_tree: :seedling: Sending Message
+  # :envelope: Sending Message
  :small_blue_diamond: Now you can use the sms service anywhere in your project by calling robi_sms() method.
  ```sh
   robi_sms(['mobile_no'=>'01xxxxxxxxx','msg'=>'Bismillah'])
