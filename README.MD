@@ -13,7 +13,7 @@
   ```sh
    composer remove misfit/robi-sms
   ```
- # :package: Publish Configuration
+ # :outbox_tray: Publish Configuration
  :small_blue_diamond: To publish the config, run from terminal
  ```sh
   php artisan vendor:publish --provider='Misfit\Robisms\RobiSmsServiceProvider'
