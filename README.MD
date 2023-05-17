@@ -38,6 +38,7 @@
  ```sh
   php artisan config:clear
  ```
+  # :palm_tree: :seedling: Sending Message
  :small_blue_diamond: Now you can use the sms service anywhere in your project by calling robi_sms() method.
  ```sh
   robi_sms(['mobile_no'=>'01xxxxxxxxx','msg'=>'Bismillah'])
