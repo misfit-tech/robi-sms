@@ -18,10 +18,6 @@
     ROBI_SMS_NUMBER=
     ROBI_SMS_TIMEOUT=
  ```
- :small_blue_diamond: To reflect new .env config, you can always run
- ```sh
-  php artisan config:clear
- ```
   # :envelope: Sending Message
  :small_blue_diamond: Now you can use the sms service anywhere in your project by calling robi_sms() method.
  ```sh
