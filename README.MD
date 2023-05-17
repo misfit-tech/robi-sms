@@ -5,14 +5,6 @@
  ```sh
   composer require misfit/robi-sms
  ```
- :small_blue_diamond: Or you can install a specific version
- ```sh
-  composer require misfit/robi-sms:version
- ```
- You can also remove it by
-  ```sh
-   composer remove misfit/robi-sms
-  ```
  # :outbox_tray: Publish Configuration
  :small_blue_diamond: To publish the config, run from terminal
  ```sh
