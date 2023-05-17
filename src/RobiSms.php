@@ -22,7 +22,6 @@ class RobiSms implements RobiSmsInterface{
             ],
 
         ]);
-        dd($response);
         if ($response->getStatusCode() == 200) {
             $xml_response = $response->getBody()->getContents();
 

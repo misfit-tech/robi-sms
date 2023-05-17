@@ -15,7 +15,8 @@
         {
             "name"  : "Md. Ainul Moin Noor",
             "email" : "chandan@misfit.tech",
-            "role"  : "Developer"
+            "role"  : "Developer",
+            "homepage": "https://github.com/chandan07cse"
         }
     ],
     "minimum-stability": "dev",
